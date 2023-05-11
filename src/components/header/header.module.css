@@ -1,0 +1,27 @@
+/* ------------------------------------------------------------ *\
+  header
+\* ------------------------------------------------------------ */
+
+.header {
+  background-color: var(--header-background-color);
+  padding-block: var(--spacing-step);
+}
+
+.nav {
+  padding-inline: calc(var(--spacing-step) * 2);
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(var(--spacing-step) * 2);
+}
+
+.nav li {
+  font-size: 0;
+  line-height: 1;
+}
