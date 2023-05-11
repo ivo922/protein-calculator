@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 import styles from './header.module.css';
@@ -8,7 +9,6 @@ import compare from '../../../public/images/compare.svg';
 import logo from '../../../public/images/logo.svg';
 import products from '../../../public/images/products.svg';
 import account from '../../../public/images/account.svg';
-import Link from 'next/link';
 
 const Header = () => {
   return (
