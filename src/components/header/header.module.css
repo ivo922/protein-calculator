@@ -5,12 +5,12 @@
 .header {
   background-color: var(--header-background-color);
   padding-block: var(--spacing-step);
+  padding-inline: calc(var(--spacing-step) * 2);
   position: sticky;
   top: 0;
 }
 
 .nav {
-  padding-inline: calc(var(--spacing-step) * 2);
   text-align: center;
 }
 

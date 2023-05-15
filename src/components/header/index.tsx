@@ -13,45 +13,43 @@ import account from '../../../public/images/account.svg';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className="header__inner">
-        <nav className={styles.nav}>
-          <ul>
-            <li>
-              <Link href={'/calculator'}>
-                <Image
-                  priority
-                  src={calculator}
-                  alt={'Protein calculator icon'}
-                />
-              </Link>
-            </li>
+      <nav className={styles.nav}>
+        <ul>
+          <li>
+            <Link href={'/calculator'}>
+              <Image
+                priority
+                src={calculator}
+                alt={'Protein calculator icon'}
+              />
+            </Link>
+          </li>
 
-            <li>
-              <Link href={'/compare'}>
-                <Image priority src={compare} alt={'Compare products icon'} />
-              </Link>
-            </li>
+          <li>
+            <Link href={'/compare'}>
+              <Image priority src={compare} alt={'Compare products icon'} />
+            </Link>
+          </li>
 
-            <li>
-              <Link href={'/'}>
-                <Image priority src={logo} alt={'Protein calculator logo'} />
-              </Link>
-            </li>
+          <li>
+            <Link href={'/'}>
+              <Image priority src={logo} alt={'Protein calculator logo'} />
+            </Link>
+          </li>
 
-            <li>
-              <Link href={'/products'}>
-                <Image priority src={products} alt={'Products icon'} />
-              </Link>
-            </li>
+          <li>
+            <Link href={'/products'}>
+              <Image priority src={products} alt={'Products icon'} />
+            </Link>
+          </li>
 
-            <li>
-              <Link href={'/account'}>
-                <Image priority src={account} alt={'Account icon'} />
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+          <li>
+            <Link href={'/account'}>
+              <Image priority src={account} alt={'Account icon'} />
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };

@@ -6,4 +6,5 @@
   background: var(--header-background-color);
   text-align: center;
   padding-block: calc(var(--spacing-step) * 4);
+  padding-inline: calc(var(--spacing-step) * 2);
 }
