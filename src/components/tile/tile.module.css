@@ -4,8 +4,8 @@
 
 .tile {
   aspect-ratio: 1 / 1;
-  border: 1px solid #BC8A5C;
-  box-shadow: -2px 2px 4px 0px #BC8A5C;
+  border: 1px solid var(--accent-color);
+  box-shadow: -2px 2px 6px 3px rgba(188, 138, 92, 0.25);
   border-radius: 0 2rem;
   background-color: #fff;
   display: flex;

@@ -13,14 +13,15 @@
 
   /* Spacing */
   --spacing-step: 0.8rem;
+  --shell-padding: 2rem;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --base-text-color: #fafafa;
     --background-color: #333;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -74,7 +75,7 @@ a {
 .shell {
   max-width: 100rem;
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: var(--shell-padding);
 }
 
 .main {
