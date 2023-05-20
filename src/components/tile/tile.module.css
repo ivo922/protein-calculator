@@ -1,0 +1,37 @@
+/* ------------------------------------------------------------ *\
+  tile.module
+\* ------------------------------------------------------------ */
+
+.tile {
+  aspect-ratio: 1 / 1;
+  border: 1px solid #BC8A5C;
+  box-shadow: -2px 2px 4px 0px #BC8A5C;
+  border-radius: 0 2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block-end: calc(var(--spacing-step) * 2);
+  padding-inline-start: calc(var(--spacing-step) * 2);
+}
+
+.image {
+  max-width: 85%;
+  align-self: flex-end;
+  font-size: 0;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+}
+
+.label {
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

@@ -63,11 +63,18 @@ a {
 \* ------------------------------------------------------------ */
 
 .wrapper {
+  min-width: 32rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   min-height: 100vh;
+}
+
+.shell {
+  max-width: 100rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
 }
 
 .main {
@@ -100,6 +107,4 @@ a {
   Fields
 \* ------------------------------------------------------------ */
 
-.field {
-
-}
+.field {}
