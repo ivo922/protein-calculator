@@ -6,20 +6,6 @@
   min-height: 100vh;
 }
 
-.heading {
-  margin-block-start: calc(var(--spacing-step) * 5);
-  margin-inline: calc(var(--shell-padding) * -1);
-  background-color: rgba(188, 138, 92, 0.8);
-  padding-block: var(--spacing-step);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* .heading svg {
-  fill: #fff;
-} */
-
 .page-links {
   width: fit-content;
   margin-inline: auto;
