@@ -105,7 +105,61 @@ a {
 }
 
 /* ------------------------------------------------------------ *\
-  Fields
+  Form
 \* ------------------------------------------------------------ */
 
-.field {}
+.form-body {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing-step) * 3);
+}
+
+.form-label {
+  display: block;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.22;
+  color: var(--accent-color);
+}
+
+.form-label + .form-field {
+  margin-top: var(--spacing-step);
+}
+
+.form-field {
+  width: 100%;
+  min-height: 4.4rem;
+  background-color: var(--background-color);
+  border: solid 1px var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(149, 105, 68, 0.25);
+  border-radius: 0 20px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.22;
+  letter-spacing: 0.16em;
+  color: var(--base-text-color);
+  text-align: center;
+}
+
+.form-actions {
+  text-align: center;
+}
+
+/* ------------------------------------------------------------ *\
+  button
+\* ------------------------------------------------------------ */
+
+.button {
+  appearance: none;
+  min-height: 4.4rem;
+  padding-inline: var(--spacing-step);
+  background-color: var(--background-color);
+  border: solid 1px var(--accent-color);
+  border-radius: 0 20px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--accent-color);
+}

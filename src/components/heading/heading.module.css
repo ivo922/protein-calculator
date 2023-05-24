@@ -3,6 +3,7 @@
 \* ------------------------------------------------------------ */
 
 .heading {
+  min-height: 12.8rem;
   margin-block-start: calc(var(--spacing-step) * 5);
   margin-inline: calc(var(--shell-padding) * -1);
   background-color: rgba(188, 138, 92, 0.8);
@@ -10,4 +11,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+}
+
+.heading h1 {
+  width: 100%;
+  padding-inline-start: calc(var(--spacing-step) * 6);
+  font-size: 3.4rem;
+  line-height: 1.2;
+  font-weight: 400;
 }

@@ -1,0 +1,15 @@
+.result {
+  letter-spacing: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.protein-calculator {
+  padding-inline: calc(var(--spacing-step) * 4);
+  padding-block: calc(var(--spacing-step) * 3);
+}
+
+.form-actions {
+  padding-block: calc(var(--spacing-step) * 2) calc(var(--spacing-step) * 5);
+}
