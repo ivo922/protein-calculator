@@ -53,6 +53,10 @@ a {
   text-decoration: none;
 }
 
+a:active {
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -93,7 +97,7 @@ a {
   background-size: cover;
   background-position: 100% 0;
   z-index: -1;
-  opacity: 0.75;
+  filter: brightness(0.66);
 }
 
 /* ------------------------------------------------------------ *\

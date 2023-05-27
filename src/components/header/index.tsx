@@ -19,6 +19,7 @@ const Header = () => {
             <Link href={'/calculator'}>
               <Image
                 priority
+                width={40}
                 src={calculator}
                 alt={'Protein calculator icon'}
               />
@@ -27,25 +28,35 @@ const Header = () => {
 
           <li>
             <Link href={'/compare'}>
-              <Image priority src={compare} alt={'Compare products icon'} />
+              <Image
+                priority
+                width={40}
+                src={compare}
+                alt={'Compare products icon'}
+              />
             </Link>
           </li>
 
           <li>
             <Link href={'/'}>
-              <Image priority src={logo} alt={'Protein calculator logo'} />
+              <Image
+                priority
+                width={40}
+                src={logo}
+                alt={'Protein calculator logo'}
+              />
             </Link>
           </li>
 
           <li>
             <Link href={'/products'}>
-              <Image priority src={products} alt={'Products icon'} />
+              <Image priority width={40} src={products} alt={'Products icon'} />
             </Link>
           </li>
 
           <li>
             <Link href={'/account'}>
-              <Image priority src={account} alt={'Account icon'} />
+              <Image priority width={40} src={account} alt={'Account icon'} />
             </Link>
           </li>
         </ul>

@@ -9,7 +9,7 @@
 .page-links {
   width: fit-content;
   margin-inline: auto;
-  padding-block: calc(var(--spacing-step) * 9);
+  padding-block: calc(var(--spacing-step) * 4);
   display: grid;
   grid-template-columns: repeat(2, minmax(13.2rem, 18.5rem));
   gap: calc(var(--spacing-step) * 2);

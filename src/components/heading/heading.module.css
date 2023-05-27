@@ -4,7 +4,7 @@
 
 .heading {
   min-height: 12.8rem;
-  margin-block-start: calc(var(--spacing-step) * 5);
+  margin-block-start: calc(var(--spacing-step) * 4);
   margin-inline: calc(var(--shell-padding) * -1);
   background-color: rgba(188, 138, 92, 0.8);
   padding-block: var(--spacing-step);

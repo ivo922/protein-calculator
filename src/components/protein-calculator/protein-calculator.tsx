@@ -48,6 +48,7 @@ const ProteinCalculator = () => {
               className="form-field"
               id="per100"
               type="number"
+              step=".01"
               {...register('per100', { required: true })}
             />
 

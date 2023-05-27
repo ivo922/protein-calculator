@@ -6,14 +6,14 @@ import calculator from '../../public/images/tile-calculator.png';
 import compare from '../../public/images/tile-compare.png';
 import products from '../../public/images/tile-products.png';
 import account from '../../public/images/tile-account.png';
-import logo from '../../public/images/logo-white.svg';
+import logo from '../../public/images/logo-large.svg';
 import Heading from '@/components/heading/heading';
 
 export default function Page() {
   return (
     <>
       <Heading>
-        <Image src={logo} alt="Logo" />
+        <Image priority src={logo} alt="Logo" />
       </Heading>
 
       <div className={styles['page-links']}>
